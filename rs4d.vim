@@ -4,7 +4,7 @@
 " .............: A dark colorscheme for focused coding
 " Author.......: TheBlackzone <theblackzone@gmail.com>
 " Created......: 2020-06-05
-" Last Change..: 2025-06-22
+" Last Change..: 2025-08-05
 " =============================================================================
 
 set background=dark
@@ -28,10 +28,12 @@ hi EndOfBuffer		ctermfg=65		ctermbg=NONE	cterm=NONE		guifg=#6A9955	guibg=NONE		g
 hi NormalNC			ctermfg=188		ctermbg=235		cterm=NONE		guifg=#d4d4d4	guibg=#282828	gui=NONE
 
 " Line numbers and cursor
-hi LineNr			ctermfg=102		ctermbg=233		cterm=NONE		guifg=#858585	guibg=#141414	gui=NONE
+"hi LineNr			ctermfg=102		ctermbg=233		cterm=NONE		guifg=#858585	guibg=#141414	gui=NONE
+hi LineNr			ctermfg=102		ctermbg=235		cterm=NONE		guifg=#858585	guibg=#252526	gui=NONE
 hi LineNrAbove		ctermfg=102		ctermbg=233		cterm=NONE		guifg=#858585	guibg=#141414	gui=NONE
 hi LineNrBelow		ctermfg=102		ctermbg=233		cterm=NONE		guifg=#858585	guibg=#141414	gui=NONE
-hi CursorLineNr		ctermfg=251		ctermbg=NONE	cterm=NONE		guifg=#c6c6c6	guibg=NONE		gui=NONE
+"hi CursorLineNr		ctermfg=251		ctermbg=NONE	cterm=NONE		guifg=#c6c6c6	guibg=NONE		gui=NONE
+hi CursorLineNr		ctermfg=250		ctermbg=236		cterm=NONE		guifg=#c5c5c5	guibg=#2a2a2a	gui=bold
 hi CursorColumn		ctermfg=NONE	ctermbg=235		cterm=NONE		guifg=NONE		guibg=#282828	gui=NONE
 hi CursorLine		ctermfg=NONE	ctermbg=235		cterm=NONE		guifg=NONE		guibg=#282828	gui=NONE
 hi Cursor			ctermfg=234		ctermbg=145		cterm=NONE		guifg=#1e1e1e	guibg=#aeafad	gui=NONE
